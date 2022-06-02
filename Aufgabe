@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+<form action="result.html" method="GET">
+  <div>
+    <label for="name">Vorname</label>
+    <input type="text" id="name" placeholder="vorname"><br>
+  </div>
+  <div>
+    <label for="nachname">Nachname</label>
+    <input type="text"  id="nachname" name="nachname" placeholder="nachname" required><br>
+  </div>
+  <div>
+    <label
+for="strasse">Strasse</label>
+    <input type="text" id="strasse" placeholder="strasse" required><br>
+  </div>
+  <div>
+    <label for="plz">Plz</label>
+    <input type="number" id="zip" placeholder="plz" max="1" required><br>
+  </div>
+  <div>
+    <label for="ort">Ort</label>
+    <input type="text" id="ort" placeholder="ort" required><br>
+  </div>
+  <button type="submit">Absenden</button>
+</form>
+
+</body>
+</html>
